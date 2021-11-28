@@ -1,0 +1,9 @@
+kind: Addons
+metadata:
+  name: flux
+spec:
+  addons:
+    - version: 0.24.0
+      selector:
+        k8s-addon: flux.addons.k8s.io
+      manifest: v0.24.0.yaml
